@@ -2,7 +2,7 @@
 
 # Learning Objectives
 
-+ At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
++ At the end of this project, i'm expected to be able to explain to anyone, without the help of Google:
 
 ## At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 + What are the arithmetic operators and how to use them
