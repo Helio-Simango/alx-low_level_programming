@@ -1,8 +1,8 @@
 # 0x01. C - Variables, if, else, while. project
 
-# Learning Objectives
+## Learning Objectives
 
-## At the end of this project, i'm expected to be able to explain to anyone, without the help of Google:
+### At the end of this project, i'm expected to be able to explain to anyone, without the help of Google:
 + What are the arithmetic operators and how to use them
 + What are the logical operators (sometimes called boolean operators) and how to use them
 + What the the relational operators and how to use them
