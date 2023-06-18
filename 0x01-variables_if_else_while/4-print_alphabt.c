@@ -13,10 +13,10 @@ int main(void)
 
 	while (i <= 122)
 	{
+		/* e -> 101  113 -> q*/
 		if (!(i == 101) && !(i == 113))
 		{
 			putchar(i);
-			i++;
 		}
 		i++;
 	}
