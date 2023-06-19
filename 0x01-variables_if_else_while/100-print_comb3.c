@@ -20,6 +20,10 @@ int main(void)
 			{
 				putchar(num1);
 				putchar(num2);
+				if (num1 == 56 && num2 == 57)
+				{
+					continue;
+				}
 				putchar(',');
 				putchar(' ');
 			}
