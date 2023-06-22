@@ -10,9 +10,10 @@ void print_most_numbers(void)
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		if (!(i == 2 && i == 4))
+		/* ASCII 50 ->  Number 2 .... 54 -> 4 */
+		if (!(i == 50 && i == 54))
 			_putchar(i);
 	}
 	_putchar('\n');
