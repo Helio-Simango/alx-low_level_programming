@@ -13,7 +13,7 @@ void print_most_numbers(void)
 	for (i = 48; i <= 57; i++)
 	{
 		/* ASCII 50 ->  Number 2 .... 54 -> 4 */
-		if (!(i == 50 && i == 54))
+		if (!(i == 50 || i == 54))
 			_putchar(i);
 	}
 	_putchar('\n');
