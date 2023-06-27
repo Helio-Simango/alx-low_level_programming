@@ -7,15 +7,19 @@ include "main.h"
 
 void print_rev(char *s)
 {
-	int size;
-
-	for (size = 0; s[size] != '\0'; size++)
-		;
-
-	for (size--; size >= 0; size--)
-	{
-		_putchar(s[size]);
+	if (s == NULL) {
+		return;  // Handle the case when the string is empty or NULl
 	}
+    
+	int length = 0;
 
+	// Calculate the length of the string
+	while (s[length] != '\0') {
+		length++;
+	}    
+	// Print the string in reverse
+	for (int i = length - 1; i >= 0; i--) {
+		_putchar( s[i]);
+	}
 	_putchar(10);
 }
