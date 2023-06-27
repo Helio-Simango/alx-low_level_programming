@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
- * _puts - description
- * @str: Pointer to string
- */
+* _puts - description
+* @str: Pointer to string
+*/
 
 void _puts(char *str)
 {
 	int i;
 
-	for (i = 0; (*s++ != 0); i++)
-	{
-		_putchar(*s + i);
-	}
-	_putchar('\n');
+	for (i = 0; str[i] != 0; i++)
+		_putchar(str[i]);
+	_putchar(10);
 }
