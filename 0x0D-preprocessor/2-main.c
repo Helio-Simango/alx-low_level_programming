@@ -8,6 +8,6 @@
 
 int main(void)
 {
-	print("%s\n", __BASE_FILE__);
+	print("%s\n", __FILE__);
 	return (0);
 }
