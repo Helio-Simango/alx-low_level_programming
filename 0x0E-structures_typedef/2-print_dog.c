@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include "dog.h"
 
 /**
@@ -9,7 +9,7 @@
  * Discription: long description
  */
 
- void print_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
