@@ -5,6 +5,7 @@
  * @head: Pointer to pinter head of linked list.
  * Return: Pointer to head of reverse linked list.
  */
+
 listint_t *reverse_listint(listint_t **head)
 {
 	listint_t *prev_node = NULL;
